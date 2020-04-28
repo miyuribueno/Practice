@@ -1,0 +1,260 @@
+*, html, body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+
+h1,h2,h3 {
+    /* font-family: 'Titillium Web', sans-serif; */
+    font-family: 'Audiowide', cursive;
+    font-weight: 900px;
+}
+
+/* Header */
+
+#logo {
+    width: 4rem;
+    padding: 0;
+    margin: 0;
+}
+
+#title{
+    padding: 0;
+    margin: 0 2rem; 
+}
+
+.nav-item {
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 1.3rem;
+    font-weight: 600px;
+    margin: .5rem 1rem;
+    padding: 0;
+}
+
+.nav-item > a {
+    padding: 0;
+    color: black;
+    text-decoration: none;
+}
+
+.navbar-nav {
+    text-align: center;
+}
+
+.header {
+
+    background-image: linear-gradient(to right, #d7d2cc 0%, #304352 100%);
+    color: black;
+}
+
+.secTitle  {
+    font-size: 2.5em;
+    position: relative;
+    z-index: 2999;
+
+
+}
+
+.secP {
+    position: relative;
+    z-index: 2999;
+    line-height: 1.5em;
+    text-align: center;
+}
+
+.center{
+    text-align: center;
+}
+
+
+/* #25CBDD
+#007895 */
+/* HOME SECTION */
+
+.bg1 {
+    height: 90vh;
+    background: url("img2.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.homeSection {
+    color: white;
+}
+
+.one {
+    height: 70vh;
+    background: #09203f;
+}
+
+.one::before {
+    position: absolute;
+    content: '';
+    width: 60%;
+    height: 200px;
+    top: 90%;
+    left: 0;
+    background: #09203f;
+    transform: skewY(10deg);
+    z-index: 999;
+
+}
+
+.one::after {
+    position: absolute;
+    content: '';
+    width: 60%;
+    height: 200px;
+    top: 90%;
+    right: 0;
+    background: #09203f;
+    transform: skewY(-10deg);
+    z-index: 999;
+}
+
+/* HOME SECTION END*/
+
+/* SKILL SECTION */
+
+.bg2 {
+    height: 90vh;
+    background: url("img4.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.skillSection {
+    color: white;
+}
+
+.two {
+    height: 50vh;
+    background: black;
+}
+
+.two::before {
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 350px;
+    top: 240%;
+    right: 0;
+    background: black;
+    transform: skewY(-10deg);
+    z-index: 999;
+ 
+}
+
+.two::after {
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 350px;
+    top: 289%;
+    left: 0;
+    background: black;
+    transform: skewY(10deg);
+    z-index: 999;
+
+}
+
+/* SKILL SECTION END*/
+
+/* PROJECT SECTION */
+
+.bg3 {
+    height: 90vh;
+    background: url("img3.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.projectSection {
+    color: white;
+}
+
+.three {
+    height: 50vh;
+    background: #09203f;
+}
+
+.three::before {
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 350px;
+    top: 380%;
+    right: 0;
+    background: #09203f;
+    transform: skewY(10deg);
+    z-index: 999;
+
+}
+
+.three::after {
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 350px;
+    top: 429%;
+    left: 0;
+    background: #09203f;
+    transform: skewY(-10deg);
+    z-index: 999;
+}
+
+/* PROJECT SECTION END*/
+
+/* CONTACT SECTION */
+
+.bg4 {
+    height: 130vh;
+    background: url("img1.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.contactSection {
+    color: white;
+}
+
+.four {
+    height: 50vh;
+    background: #09203f;
+}
+
+.four::before {
+    position: absolute;
+    content: '';
+    width: 60%;
+    height: 200px;
+    top: 570%;
+    left: 0;
+    background: #09203f;
+    transform: skewY(10deg);
+    z-index: 999;
+ 
+}
+
+.four::after {
+    position: absolute;
+    content: '';
+    width: 60%;
+    height: 200px;
+    top: 570%;
+    right: 0;
+    background: #09203f;
+    transform: skewY(-10deg);
+    z-index: 999;
+ 
+}
+/* CONTACT SECTION END*/
+
+/* 
+background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%); 
+*/
